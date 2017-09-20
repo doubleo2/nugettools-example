@@ -1,0 +1,10 @@
+version: 1.0.{build}
+build_script:
+- cmd: nuget pack Example.MyTool\package.nuspec -Version %appveyor_build_version%
+artifacts:
+- path: '**\*.nupkg'
+deploy:
+- provider: NuGet
+  server: https://ci.appveyor.com/nuget/doubleo2-nj4tgoxwa2sa
+  api_key:
+    secure: /5m7K3J8Cin5qUGm9pFoahqC4RaCQ3pl62MwjR6KhhI=
