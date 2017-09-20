@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Example.MyTool</id>
+    <version>$version$</version>
+    <authors>doubleo2</authors>
+    <owners>doubleo2</owners>
+    <licenseUrl>https://opensource.org/licenses/MIT</licenseUrl>
+    <projectUrl>https://github.com/doubleo2/nugettools-example</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <title>Example Tool</title>
+    <description>Package to demonstrate building and deploying a tools only NuGet package using appveyor</description>
+    <releaseNotes>Initial release</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>Example Demo Alpha</tags>
+  </metadata>
+</package>
+
